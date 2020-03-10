@@ -1,0 +1,12 @@
+.tableborder{
+    border:none;
+    width: 500px;
+}
+
+thead,tbody,tr,th,td{
+    border:2px dashed black
+}
+
+.cursor{
+    cursor: pointer;
+}
