@@ -10,6 +10,7 @@ app = Flask(__name__)
 app.config['MYSQL_USER'] = 'sagar'
 app.config['MYSQL_PASSWORD'] = 'anku123'
 app.config['MYSQL_DB'] = 'Library'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql-objective-58425'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 mysql = MySQL(app)
 
